@@ -14,6 +14,9 @@ mainly responsible for state management / controller / services
 mainly responsible for widgets / components
 ```
 
+## Resources
+- [Figma Blueprint](https://www.figma.com/file/AGPNDs1MtnPio70MB0QQ19/141Remake?type=design&node-id=12%3A194&mode=design&t=XbM4TOrJiw6eixPc-1)
+
 ## Initialize
 
 ```bash

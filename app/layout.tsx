@@ -2,6 +2,9 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 
+// 1. import `NextUIProvider` component
+import { NextUIProvider } from "@nextui-org/react";
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -17,9 +20,20 @@ export default function RootLayout({
   return (
     <html>
       <body className={inter.className}>
-        <main className="h-full w-full overflow-y-auto overflow-x-hidden">
-          {children}
+        <header>
+          <nav>
+            <ul>
+              <li>
+                <a href="/">CyberMall</a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+        <main className="h-full w-full overflow-y-auto overflow-x-hidden ">
+          {/*wrap with Provider importing from the './providers.tsx'*/}
+          <NextUIProvider>{children}</NextUIProvider>
         </main>
+        <footer></footer>
       </body>
     </html>
   );

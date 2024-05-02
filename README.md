@@ -17,7 +17,7 @@ mainly responsible for widgets / components / views
 
 ## Resources
 - [Figma Blueprint](https://www.figma.com/file/AGPNDs1MtnPio70MB0QQ19/141Remake?type=design&node-id=12%3A194&mode=design&t=XbM4TOrJiw6eixPc-1)
-- Infrastructure
+- [Infrastructure](https://www.figma.com/file/zCmDJUpTOiiFPgxWjyagTv/CyberMall-Infrastructure?type=whiteboard&node-id=0%3A1&t=XOfDRbBXQHS3W5gL-1)
 - Database Schema
 
 ## Initialize

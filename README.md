@@ -1,21 +1,24 @@
-# Super Goggles
+# Cybermall
+
+** Do Not Upload Any `Key` / `Secrets` to this repo
 
 ## Message:
 ```txt
-Now this is the template for Super Goggles, open a new branch and play around with it.
+Now this is the template for Cybermall, open a new branch and play around with it.
 I will be initialize NextUI later;
-Map might use google map plugin;
 Framer-motion is one of the dependencies from NextUI, feel free to use it anytime.
 
 - Ken:
 mainly responsible for state management / controller / services
 
 - Calvin:
-mainly responsible for widgets / components
+mainly responsible for widgets / components / views
 ```
 
 ## Resources
 - [Figma Blueprint](https://www.figma.com/file/AGPNDs1MtnPio70MB0QQ19/141Remake?type=design&node-id=12%3A194&mode=design&t=XbM4TOrJiw6eixPc-1)
+- Infrastructure
+- Database Schema
 
 ## Initialize
 
@@ -38,8 +41,12 @@ npm run start
 ```
 
 ## Style
-- Dark mode
-- Theme Color: Yellow
+- Dark & Light mode
+- Theme Color: To be confirmed
+
+## Languages
+1. ZH-HK
+2. EN-US
 
 ## Environment
 - I'll upload it on google drive later

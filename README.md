@@ -44,5 +44,9 @@ npm run start
 - Dark & Light mode
 - Theme Color: To be confirmed
 
+## Languages
+1. ZH-HK
+2. EN-US
+
 ## Environment
 - I'll upload it on google drive later

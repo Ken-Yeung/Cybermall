@@ -5,7 +5,7 @@
 ## Message:
 ```txt
 Now this is the template for Cybermall, open a new branch and play around with it.
-I will be initialize NextUI later;
+I will be initialize NextAuth later;
 Framer-motion is one of the dependencies from NextUI, feel free to use it anytime.
 
 - Ken:

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Provider } from "./providers";
 import { Inter } from "next/font/google";
 import "./globals.css";
 
@@ -16,10 +17,23 @@ export default function RootLayout({
 }>) {
   return (
     <html>
-      <body className={inter.className}>
-        <main className="h-full w-full overflow-y-auto overflow-x-hidden">
-          {children}
-        </main>
+      <body className={`${inter.className} dark`}>
+        {/*wrap with Provider importing from the './providers.tsx'*/}
+        <Provider>
+          <header>
+            <nav>
+              <ul>
+                <li>
+                  <a href="/">CyberMall</a>
+                </li>
+              </ul>
+            </nav>
+          </header>
+          <main className="h-full w-full overflow-y-auto overflow-x-hidden ">
+            {children}
+          </main>
+          <footer></footer>
+        </Provider>
       </body>
     </html>
   );

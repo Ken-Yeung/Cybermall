@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Provider } from "./providers";
 import { Inter } from "next/font/google";
+import InfoBar from "./components/infoBar/infoBar";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -20,14 +21,8 @@ export default function RootLayout({
       <body className={`${inter.className} dark`}>
         {/*wrap with Provider importing from the './providers.tsx'*/}
         <Provider>
-          <header>
-            <nav>
-              <ul>
-                <li>
-                  <a href="/">CyberMall</a>
-                </li>
-              </ul>
-            </nav>
+          <header className=" bg-night3">
+            <InfoBar />
           </header>
           <main className="h-full w-full overflow-y-auto overflow-x-hidden ">
             {children}
